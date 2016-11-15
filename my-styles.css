@@ -1,0 +1,131 @@
+
+/*base css*/
+body {
+	background-color: #1081DE;
+	color: white;
+}
+
+h1 {
+	font-size: 400%;	
+}
+
+h2 {
+	font-size: 300%;
+}
+
+h1, h2 {
+	font-family: 'Caveat Brush', cursive;
+}
+
+p,
+a {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 150%;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #BDDBF4;
+}
+
+#my-nav {
+	margin: auto;
+	padding-top: 40px;
+	width: 80%;
+	max-width: 500px;
+}
+
+#my-nav > a {
+	font-size: 135%;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+#home {
+	float: left;
+}
+
+#contact-me {
+	float: right;
+}
+
+#my-wrapper {
+	margin: 55px auto 0px auto;
+	width: 75%;
+	max-width: 500px;
+}
+
+/*to-do list css - custom*/
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #cfcbcc;
+}
+
+input {
+  color: black;
+  border: none;
+  display: block;
+  width: 98.4%;
+  line-height: 1.5;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #cfcbcc;
+  outline: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  color: #899098;
+  font-weight: 400;
+  border-bottom: 1px solid #cfcbcc;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+ul li:before {
+  content: "\25A1";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+ul li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+
+.checked {
+  color: green;
+}
+.checked:before {
+  content: "\2713";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.checked:hover {
+  text-decoration: none;
+}
+.checked:hover:after {
+  content: " (remove)";
+  color: tomato;
+  text-align: right;
+}
